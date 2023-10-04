@@ -24,7 +24,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  
 }
 
 li {
@@ -55,29 +54,15 @@ li a:hover {
   font-size: 50px;
 }
 
-
-
 img {
-  max-width: 550vw;
-  float: left;
+  display: flex;
+  max-width: 100%;
   margin-right: 15px;
-}
-
-.text-box {
-  color: #111;
-}
-
-.text-box h2 {
-  font-size: 42px;
-}
-
-.text-box p {
-  font-size: 16px;
 }
 
 .column {
   display: flex;
-  flex-direction: row; /* Updated to align cards horizontally */
+  flex-direction: row;
   align-items: flex-start;
   width: 33.3%;
   margin-bottom: 16px;
@@ -113,7 +98,7 @@ img {
 }
 /* INDEX BORIE */
 
-article .wrapper{
+article .wrapper {
   margin: 150px auto;
   width: 70%;
 }
@@ -126,8 +111,6 @@ article img {
   margin-right: 15px;
 }
 
-
-
 article .text-box h2 {
   font-size: 42px;
 }
@@ -135,9 +118,6 @@ article .text-box h2 {
 article .text-box p {
   font-size: 16px;
 }
-
-
-
 
 /* Form */
 input[type="text"],
