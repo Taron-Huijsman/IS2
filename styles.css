@@ -44,44 +44,20 @@ li a:hover {
   transform: scale(1.05);
   transition: all 0.8s ease-in-out;
 }
-/*Container*/
-
-
-img {
-  display: flex;
-  max-width: 100%;
-  margin-right: 15px;
-}
-
-
 
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
+
   img {
     width: 75vw;
   }
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
-.container {
-  padding: 0 16px;
-}
 
-.title {
-  color: grey;
-}
-
-.card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: scale(1.02);
-  transition: all 0.2s ease-in-out;
-}
 /* INDEX BORIE */
 .wrapper {
   margin: 150px auto;
@@ -90,28 +66,29 @@ img {
 
 .wrapper h1 {
   font-size: 4em;
+  
 }
-.wrapper h2{
+
+.wrapper h2 {
   font-size: 3em;
 }
 
-.wrapper h3{
+.wrapper h3 {
   font-size: 2em;
 }
-article .wrapper {
-  margin: 150px auto;
-  width: 70%;
-}
 
 
-article .wrapper .h2 {
-  font-size: 20px;
-}
+
+
+/*Change*/
 article img {
-  max-width: 550vw;
-  float: left;
+ 
+  display: flex;
+  justify-content:center;
+  
   margin-right: 15px;
 }
+
 
 
 /* Form */
@@ -151,6 +128,7 @@ footer {
   background-color: #333;
   color: white;
 }
+
 footer a {
   color: white;
   text-decoration: none;
@@ -166,6 +144,6 @@ video {
   height: 100%;
 }
 
-img{
-  width:50vw;
+img {
+  width: 50vw;
 }
