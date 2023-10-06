@@ -101,9 +101,14 @@ img {
 article .wrapper {
   margin: 150px auto;
   width: 70%;
+
 }
-article .wrapper h1 {
-  font-size: 50px;
+article h1 {
+  font-size: 1000em;
+}
+
+article .wrapper .h2 {
+  font-size: 20px;
 }
 article img {
   max-width: 550vw;
@@ -111,13 +116,6 @@ article img {
   margin-right: 15px;
 }
 
-article .text-box h2 {
-  font-size: 42px;
-}
-
-article .text-box p {
-  font-size: 16px;
-}
 
 /* Form */
 input[type="text"],
