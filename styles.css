@@ -43,7 +43,7 @@ li a:hover {
   transform: scale(1.05);
   transition: all 0.8s ease-in-out;
 }
-
+/*responsive design*/
 @media screen and (max-width: 650px) {
   img {
     width: 5vw;
@@ -53,7 +53,7 @@ li a:hover {
 
 
 
-/* INDEX BORIE */
+/* Index, more-info en recommendations layout */
 article {
   display: flex;
   flex-direction: row-reverse;
@@ -126,7 +126,7 @@ article .button{
 .button:hover {
   background-color: black;
 }
-
+/*footer */
 footer {
   text-align: center;
   padding: 3px;
@@ -142,7 +142,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-/*table*/
+/*table voor de bronnen*/
 table {
   font-weight: bold;
   width: 100%;
