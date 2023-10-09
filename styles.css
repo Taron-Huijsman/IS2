@@ -114,14 +114,14 @@ textarea {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  justify-content: center;
-  align-items:flex-start;
   font-size: 16px;
   margin-top: 5px;
+  margin-bottom: 5px;
   cursor: pointer;
 }
 article .button{
   margin-left: 25px;
+  margin-top: 15px;
 }
 
 .button:hover {
