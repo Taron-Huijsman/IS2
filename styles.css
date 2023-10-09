@@ -45,13 +45,9 @@ li a:hover {
 }
 
 @media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-
   img {
-    width: 75vw;
+    width: 5vw;
+    height: 25vw;
   }
 }
 
