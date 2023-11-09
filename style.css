@@ -62,11 +62,11 @@ main p {
   margin-bottom: 10px;
 }
 main .logo{
-  height: 40vh;
-  width: 90%;
+  height: 25vh;
+  width: 60%;
   display: block;
   margin: auto;
-  
+  margin-bottom: 40px;
 }
 /*slider*/
 .slider {
