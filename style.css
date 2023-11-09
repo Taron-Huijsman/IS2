@@ -183,8 +183,10 @@ aside.img-container img {
     display: inline-block;
     align-items: center;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
+    width: 25%;
+    display: block;
+    margin: auto;
     
   }
 
