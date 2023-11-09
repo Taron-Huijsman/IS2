@@ -61,6 +61,11 @@ main p {
   margin-top: 5px;
   margin-bottom: 10px;
 }
+main .logo{
+  width: 50%;
+  align-content: center;
+  
+}
 /*slider*/
 .slider {
   position: relative;
