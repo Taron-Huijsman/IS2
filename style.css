@@ -1,202 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Agbalumo;
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Agbalumo;
 }
-
-body {
-  background-color: #566e3D;
-  color: white;
+ body {
+     background-color: #566e3D;
+     color: white;
 }
-
 /* Navigatie */
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #956E53;
-  position: fixed;
-  top: 0;
-  width: 100%;
+ ul {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     background-color: #956E53;
+     position: fixed;
+     top: 0;
+     width: 100%;
 }
-
-li a {
-  display: flex;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+ li a {
+     display: flex;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
 }
-
-li a:hover:not(.active) {
-  background-color: #111;
+ li a:hover:not(.active) {
+     background-color: #111;
 }
-
-.active {
-  background-color: #553d6e;
+ .active {
+     background-color: #553d6e;
 }
 /*INDEX */
-main {
-  margin-top: 10vh;
-  margin-left: 2vw;
+ main {
+     margin-top: 10vh;
+     margin-left: 2vw;
 }
-main h1 {
-  text-align: center;
-  font-size: 3em;
-  font-weight: bold;
-  text-align: center;
+ main h1 {
+     text-align: center;
+     font-size: 3em;
+     font-weight: bold;
+     text-align: center;
 }
-main h2 {
-  font-size: 1.5em;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+ main h2 {
+     font-size: 1.5em;
+     text-align: center;
+     margin-top: 15px;
+     margin-bottom: 15px;
 }
-main p {
-  font-size: 1em;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+ main p {
+     font-size: 1em;
+     margin-left: 5px;
+     margin-top: 5px;
+     margin-bottom: 10px;
 }
-main .logo{
-  height: 25vh;
-  width: 60%;
-  display: block;
-  margin: auto;
-  margin-bottom: 40px;
+ main .logo{
+     height: 25vh;
+     width: 60%;
+     display: block;
+     margin: auto;
+     margin-bottom: 40px;
 }
 /*slider*/
-.slider {
-  position: relative;
-  width: 98%;
-  overflow: hidden;
+ .slider {
+     position: relative;
+     width: 98%;
+     overflow: hidden;
 }
-.images {
-  display: flex;
-  width: 100%;
+ .images {
+     display: flex;
+     width: 100%;
 }
-.images img {
-  height: auto;
-  width: 100%;
-  transition: all 0.7s ease-in;
+ .images img {
+     height: auto;
+     width: 100%;
+     transition: all 0.7s ease-in;
 }
-.images input {
-  display: none;
+ .images input {
+     display: none;
 }
-.dots {
-  display: flex;
-  justify-content: center;
-  margin: 5px;
+ .dots {
+     display: flex;
+     justify-content: center;
+     margin: 5px;
 }
-.dots label {
-  height: 20px;
-  width: 20px;
-  border-radius: 0%;
-  border: solid #fff 3px;
-  cursor: pointer;
-  transition: all 0.15s ease;
-  margin: 5px;
+ .dots label {
+     height: 20px;
+     width: 20px;
+     border-radius: 0%;
+     border: solid #fff 3px;
+     cursor: pointer;
+     transition: all 0.15s ease;
+     margin: 5px;
 }
-.dots label:hover {
-  background: #553d6e;
+ .dots label:hover {
+     background: #553d6e;
 }
-#img1:checked ~ .m1 {
-  margin-left: 0;
+ #img1:checked ~ .m1 {
+     margin-left: 0;
 }
-#img2:checked ~ .m2 {
-  margin-left: -100%;
+ #img2:checked ~ .m2 {
+     margin-left: -100%;
 }
-#img3:checked ~ .m3 {
-  margin-left: -200%;
+ #img3:checked ~ .m3 {
+     margin-left: -200%;
 }
-#img4:checked ~ .m4 {
-  margin-left: -300%;
+ #img4:checked ~ .m4 {
+     margin-left: -300%;
 }
-
 /*Info pagina*/
-
-article p{
-  font-size: 1em;
-  margin-left: 5px;
-  margin-top: 5px;
-  margin-bottom: 15px;
+ article p{
+     font-size: 1em;
+     margin-left: 5px;
+     margin-top: 5px;
+     margin-bottom: 15px;
 }
-af
-
-
-.img-container {
-  display: flex;
+ af .img-container {
+     display: flex;
 }
-aside.img-container img {
-  width: 31%;
-  padding: 1px;
-  padding-bottom: 15px;
+ aside.img-container img {
+     width: 31%;
+     padding: 1px;
+     padding-bottom: 15px;
 }
-  /*Contact Form*/
- aside  h2{
-  text-align: center;
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 25px;
- }
-  input[type=text] {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #956E53;
-    color: white;
-  }
-  input[type=email] {
-    width: 95%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #956E53;
-    color: white;
-  }
-  input[type=submit] {
-    width: 23%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    background-color: #956E53;
-    color: white;
-    display: flex;
-  }
- 
-  /*Knop*/
-   .button {
-    display: grid;
-    align-items: center;
-    margin: auto;
-    width: 25%;
-    font-size: 1em;
-    background-color: #553d6e;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-
-   
-
-    
-  }
-
+/*Contact Form*/
+ aside h2{
+     text-align: center;
+     font-size: 2em;
+     font-weight: bold;
+     margin-top: 25px;
+     margin-bottom: 25px;
+}
+ input[type=text] {
+     width: 95%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     background-color: #956E53;
+     color: white;
+}
+ input[type=email] {
+     width: 95%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     background-color: #956E53;
+     color: white;
+}
+ input[type=submit] {
+     width: 23%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     background-color: #956E53;
+     color: white;
+     display: flex;
+}
+/*Knop*/
+ .button {
+     display: grid;
+     align-items: center;
+     margin: auto;
+     width: 25%;
+     font-size: 1em;
+     background-color: #553d6e;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+}
 /*Footer*/
-footer{
-  margin-top: 10px;
-  text-align: center;
-  padding: 3px;
-  background-color: #956E53;
-  color: white;
+ footer{
+     margin-top: 10px;
+     text-align: center;
+     padding: 3px;
+     background-color: #956E53;
+     color: white;
 }
